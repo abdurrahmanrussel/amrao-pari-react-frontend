@@ -11,7 +11,7 @@ const Navbar = () => {
       <nav className='containerflexsB'>
         <ul className='containerflexsB'>
           <li><NavLink to="/"> Home </NavLink></li>
-          <li><NavLink to="/cources"> All Cources </NavLink></li>
+          <li><NavLink to="/cources"> All Courses </NavLink></li>
           <li><NavLink to="/quiz"> Quiz </NavLink></li>
           <li><NavLink to="/reviews"> Reviews </NavLink></li>
           <li><NavLink to="/about"> About </NavLink></li>

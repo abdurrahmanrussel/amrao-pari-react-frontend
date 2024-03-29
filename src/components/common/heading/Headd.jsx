@@ -7,7 +7,7 @@ const Headd = () => {
     <section className="head">
         <div className="containerflexsB">
             <div className="logo">
-                <h1>Amrao pari</h1>
+                <h1>&lt;/Amrao pari&gt;</h1>
                 <span>BENGALI ONLINE TECH EDUCATION & LEARNING</span>
             </div>
 

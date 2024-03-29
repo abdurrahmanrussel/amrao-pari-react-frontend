@@ -18,9 +18,11 @@ const Navbar = () => {
           <li><NavLink to="/contact"> Contact </NavLink></li>
         </ul>
 
-        <div className="start">
-          <div className="button">My Courses</div>
-        </div>
+        <a href="/Mycourses">
+           <div className="start">
+               <div className="button">My Courses</div>
+            </div>
+        </a>
       </nav>
 
     </>

@@ -1,0 +1,38 @@
+.row{
+    display: flex;
+}
+
+.col {
+    flex: 1; /* This will make both columns take up equal width */
+}
+
+.lottie-container {
+  /* border: 2px solid red; */
+  width: 70%; /* Adjust the width of the container as needed */
+  height: 80%; /* Adjust the height of the container as needed */
+}
+  
+  .heading{
+    text-align: left;
+  }
+
+  .heading h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-top: 100px; 
+  }
+
+  .heading h1{
+    font-size: 32px;
+    /* margin-bottom: 5px; */
+    height: 100px;
+    width: 450px;
+  }
+
+  .heading p{
+    font-size: 16px;
+    width: 450px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+

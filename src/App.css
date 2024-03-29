@@ -59,6 +59,7 @@ button{
   font-weight: 500;
   font-family:"Inter";
   margin: 30px 10px;
+  margin-left: 0px;
   cursor: pointer;
   border-radius: 3px;
 }

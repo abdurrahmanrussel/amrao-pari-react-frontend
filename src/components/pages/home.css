@@ -7,10 +7,16 @@
 }
 
 .lottie-container {
-    position: relative;
-    height: 60%;
-    width: 100%;
-  }
+  /* border: 2px solid red; */
+  width: 70%; /* Adjust the width of the container as needed */
+  height: 80%; /* Adjust the height of the container as needed */
+}
+
+.lottie-container > .lottie-player {
+  width: 0%; /* Ensure the Lottie animation takes the full width of its container */
+  height: 0%; /* Ensure the Lottie animation takes the full height of its container */
+  transform: scale(1); /* Adjust the scale factor as needed */
+}
   
   .heading{
     text-align: left;

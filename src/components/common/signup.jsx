@@ -6,16 +6,15 @@ import {
   Paper,
   TextField,
   Typography,
-  Link,
-  Box,
-} from "@material-ui/core";
-import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline";
-import Radio from "@material-ui/core/Radio";
-import RadioGroup from "@material-ui/core/RadioGroup";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
-import FormControl from "@material-ui/core/FormControl";
-import FormLabel from "@material-ui/core/FormLabel";
-import Checkbox from "@material-ui/core/Checkbox";
+  Radio,
+  RadioGroup,
+  FormControlLabel,
+  FormControl,
+  FormLabel,
+  Checkbox
+} from "@mui/material";
+
+import { AddCircleOutline } from "@mui/icons-material";
 
 export const Signup = () => {
   const paperStyle = { padding: "20px 20px", width: 300, margin: "0 auto" };
@@ -27,7 +26,7 @@ export const Signup = () => {
       <Paper style={paperStyle}>
         <Grid align="center">
           <Avatar style={avatarStyle}>
-            <AddCircleOutlineIcon />
+            <AddCircleOutline />
           </Avatar>
           <h2 style={headerStyle}>Sign Up</h2>
           <Typography variant="caption" gutterBottom>

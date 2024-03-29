@@ -1,9 +1,6 @@
 import React from 'react';
-import {Avatar, Button, Grid, Paper, TextField, Typography, Link } from '@material-ui/core';
-import { green } from '@material-ui/core/colors';
-import LockClockOutlinedIcon from '@mui/icons-material/LockClockOutlined';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
+import { Avatar, Grid, Paper, TextField, Typography, Link, FormControlLabel, Button, Checkbox } from '@mui/material';
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 export const Login= ({handleChange}) => {
     const paperStyle = {padding: 20, height : '75vh', width: 300 , margin:"0 auto"}
@@ -15,7 +12,7 @@ export const Login= ({handleChange}) => {
         <Paper style= {paperStyle} >
         
           <Grid align= 'center'> 
-          <Avatar style={avatarStyle}> <LockClockOutlinedIcon/> </Avatar>
+          <Avatar style={avatarStyle}> <LockOutlinedIcon/> </Avatar>
           <h2>sign in  </h2>  
           </Grid>
           <TextField label= 'Username' placeholder='Enter user name' fullWidth required>  </TextField>

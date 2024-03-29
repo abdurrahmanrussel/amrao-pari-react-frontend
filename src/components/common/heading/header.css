@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&display=swap');
+  /* font-family: "Courier Prime", monospace, "Inter", sans-serif; */
+
 .head{
     padding: 20px 0;
     color:black;
@@ -15,31 +18,39 @@
 }
 
 nav{
-    background-color: #86b6da;
+    /* background-color: rgb(199, 211, 227,0.7); */
+    /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(175, 203, 228, 0.94);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(175, 203, 228, 0.3);
   }
   
   nav li{
-    padding: 20px 20px;
+    padding: 20px 50px;
   }
-  nav li{
-    margin-right: 40px;
-  }
+ 
   
   .containerflexsB li a {
-    color: green;
-    font-weight:300 ;
+    color: rgb(100, 116, 226);
+    font-weight:800 ;
     transition: 0.5s;
     text-decoration: none;
   }
   
   
   .containerflexsB li a:hover {
-    color: red;
+    color:#fff;
+    border-radius: 20px;
+    background-color: rgb(67, 88, 224);
+    padding: 5px;
   }
   
   .start{
-    background-color: blue;
-    padding: 20px 20px;
+    background-color:rgb(67, 88, 224);
+    padding: 20px 70px;
     color: #fff;
     clip-path: polygon(10% 0,100% 0,100% 100%,0 100%);
   }

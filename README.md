@@ -2,7 +2,7 @@
 
 Learn Different Programming Languages in Bangla. A simple website for the project of Industrial Training.
 
-Installation:
+Installation: <br/>
 npm install <br />
 npm i react-router-dom <br />
 npm i lottie-react <br />

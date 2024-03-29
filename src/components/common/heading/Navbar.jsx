@@ -20,6 +20,7 @@ const Navbar = () => {
 
         <div className="start">
           <div className="button">My Courses</div>
+          
         </div>
       </nav>
 

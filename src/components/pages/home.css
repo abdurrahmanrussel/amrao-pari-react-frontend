@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+}
+
+.col {
+    flex: 1; /* This will make both columns take up equal width */
+}
+
+.lottie-container {
+    /* border:5px solid red; */
+    width: 100%; /* Set the width of the container */
+    height: 100%; /* Set the height of the container */
+    position: relative;
+    overflow: hidden;
+    top: -100px;
+  }
+  

@@ -7,14 +7,17 @@ const Headd = () => {
     <section className="head">
         <div className="containerflexsB">
             <div className="logo">
-                <h1>Apmrao pari</h1>
+                <h1>&lt;/Amrao pari&gt;</h1>
                 <span>BENGALI ONLINE TECH EDUCATION & LEARNING</span>
             </div>
 
             <div className="social">
-                <i classname="fab fa-facebook"></i>
-                <i classname="fab fa-facebook"></i>
-                <i classname="fab fa-facebook"></i>
+                <i className="fab fa-facebook-f icon"></i>
+                <i className="fab fa-twitter icon"></i>
+                <i className="fab fa-instagram icon"></i>
+                <i className="fab fa-linkedin icon" ></i>
+                
+                
             </div>
         </div>
 

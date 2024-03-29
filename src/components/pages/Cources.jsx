@@ -1,5 +1,9 @@
-
-
+import React from "react";
+import CourseHome from "../allcourses/CourseHome";
 export const Cources = () => {
-    return <h1>Hello Cources Page</h1>
+    return(
+    <>
+        <CourseHome/>
+    </>
+    )
 };

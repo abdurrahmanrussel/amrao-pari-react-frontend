@@ -6,5 +6,7 @@ Installation:
 npm install <br />
 npm i react-router-dom <br />
 npm install @material-ui/icons  <br />
+npm install @material-ui/core  <br />
+
 
 

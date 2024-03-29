@@ -7,12 +7,9 @@
 }
 
 .lottie-container {
-    /* border:5px solid red; */
-    width: 100%; /* Set the width of the container */
-    height: 100%; /* Set the height of the container */
     position: relative;
-    overflow: hidden;
-    top: -150px;
+    height: 60%;
+    width: 100%;
   }
   
   .heading{

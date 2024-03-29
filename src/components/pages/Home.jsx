@@ -13,9 +13,13 @@ export const Home = () => {
         <div className="containerflexsB">
             <div className="row">
                 <div className="col">
-                    <h1>
-                        WELCOME TO AMRAO PARI
-                    </h1>
+                <div className="heading">
+                    <h3>WELCOME TO AMRAO PARI</h3>
+                    <h1>Best Bengali Online Education Expertise</h1>
+                    <p>Unlock the world of coding, comprehensive resources, tutorials and projects await in Bengali.</p>
+                    <p>Believe you can and you're halfway there !!</p>
+            
+                    </div>
                 <div className="button"  >
                     <button className="primary-btn" onClick={()=> navigate("/signinup") }>
                         GET STARTED NOW 

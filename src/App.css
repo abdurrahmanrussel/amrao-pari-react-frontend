@@ -11,8 +11,25 @@
 body{
  font-family:"Inter", sans-serif; 
   /* background-color:rgb(145, 186, 248);  */
-  background-color: #ecebeb;
+  /* background-color: #ecebeb; */
+  /* background-image: url(/src/assets/mainbg.svg);
+  background-size: cover; */
 }
+
+body::after {
+   content: "";
+   background: url(/src/assets/mainbg.svg);
+   opacity: 0.1;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   position: absolute;
+   z-index: -1;   
+   background-size: cover; 
+   /* backdrop-filter: blur(50px); */
+ }
+ 
 
 .containerflexsB{
   max-width: 85%;

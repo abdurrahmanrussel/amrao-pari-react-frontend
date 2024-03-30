@@ -21,12 +21,13 @@ nav{
     /* background-color: rgb(199, 211, 227,0.7); */
     /* From https://css.glass */
 /* From https://css.glass */
-background: rgba(175, 203, 228, 0.94);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(175, 203, 228, 0.3);
-  }
+  background: rgba(175, 203, 228, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 2px solid rgba(175, 203, 228, 0.3);
+  border-radius: 23px;
+}
   
   nav li{
     padding: 20px 50px;
@@ -53,6 +54,7 @@ border: 1px solid rgba(175, 203, 228, 0.3);
     padding: 20px 70px;
     color: #fff;
     clip-path: polygon(10% 0,100% 0,100% 100%,0 100%);
+    border-radius: 20px;
   }
   
   

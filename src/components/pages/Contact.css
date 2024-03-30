@@ -10,11 +10,11 @@
     padding-bottom: 20px;
     width: 450px;
     height: 650px;
-    background: rgba(175, 203, 228, 0.6);
+    background: rgba(175, 203, 228, 0.4);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.9px);
-    -webkit-backdrop-filter: blur(4.9px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     margin-left: 350px;
     
 

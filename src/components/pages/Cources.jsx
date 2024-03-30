@@ -3,8 +3,7 @@ import CourseHome from "../allcourses/CourseHome";
 export const Cources = () => {
     return(
     <>
-   
-<CourseHome/>
+        <CourseHome/>
     </>
     )
 };

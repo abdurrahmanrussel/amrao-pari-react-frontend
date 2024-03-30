@@ -1,0 +1,146 @@
+.hero{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    margin-top: 40px;
+    padding-bottom: 20px;
+    width: 450px;
+    height: 650px;
+    background: rgba(175, 203, 228, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    margin-left: 350px;
+    
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.text2{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.underline{
+    width: 70px;
+    height: 6px;
+    background: blue;
+    border-radius: 15px;
+
+}
+
+.inputs{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.5) ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.inputmsg{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 280px;
+    background: rgba(255, 255, 255, 0.5) ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.input input{
+    height: 60px;
+    width: 450px;
+    background: transparent;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.inputmsg input{
+    height: 250px;
+    width: 450px;
+    background: transparent;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.submit-container{
+    display: flex;
+    margin: auto;
+    padding-left: 10px;
+    
+
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    
+    
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.lottie-container-contact {
+  /* border: 2px solid red; */
+  width: 120%; /* Adjust the width of the container as needed */
+  height: 120%; /* Adjust the height of the container as needed */
+  margin-left: 130px;
+}
+
+
+
+
+
+
+

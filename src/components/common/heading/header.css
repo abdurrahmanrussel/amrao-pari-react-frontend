@@ -41,12 +41,16 @@ nav{
     text-decoration: none;
   }
   
+  .containerflexsB li a.active {
+    color: rgb(100, 116, 226);
+   border-bottom: 3px solid rgb(67, 88, 224);
+    padding: 3px 7px;
+  }
   
   .containerflexsB li a:hover {
     color:#fff;
-    border-radius: 20px;
     background-color: rgb(67, 88, 224);
-    padding: 5px;
+    padding: 3px 7px;
   }
   
   .start{

@@ -44,6 +44,7 @@ body{
     background-color: #fff;
     padding: 30px;
     text-align: center !important;
+    border: 1px solid rgb(85, 85, 255, 0.5);
 }
 .coursesCard .img{
     width: 100px;

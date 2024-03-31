@@ -112,7 +112,14 @@ color: #5F6BE2;
     font-size: 20px;
     font-weight: 700;
     padding: 27px 90px;
-    margin: 100px 550px;
+    margin: auto;
+    border-radius: 50px;
+
+}
+
+.viewCourseBtn{
+    display: flex;
+    margin: 50px auto;
 }
 
 

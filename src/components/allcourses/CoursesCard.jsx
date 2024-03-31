@@ -6,7 +6,7 @@ const CoursesCard = () => {
         <>
             <section className='coursesCard'>
                 <div className="containerflexsB">
-                    <div className="container grid2">
+                    <div className="containerCard grid2">
                         {coursesCard.map((val) => {
                             return (
                                 <div className="items">
@@ -53,7 +53,10 @@ const CoursesCard = () => {
                     </div>
                 </div>
             </section>
-            <button className='view-courses'>VIEW ALL COURSES</button>
+            <div className="viewCourseBtn">
+                <button className='view-courses'>VIEW ALL COURSES</button>
+            </div>
+            
         </>
     )
 }

@@ -10,12 +10,12 @@ const Navbar = () => {
      <Headd/>
       <nav className='containerflexsB'>
         <ul className='containerflexsB'>
-          <li><NavLink to="/"> Home </NavLink></li>
-          <li><NavLink to="/cources"> All Courses </NavLink></li>
-          <li><NavLink to="/quiz"> Quiz </NavLink></li>
-          <li><NavLink to="/reviews"> Reviews </NavLink></li>
-          <li><NavLink to="/about"> About </NavLink></li>
-          <li><NavLink to="/contact"> Contact </NavLink></li>
+          <li className='active' ><NavLink to="/"> Home </NavLink></li>
+          <li className='active' ><NavLink to="/cources"> All Courses </NavLink></li>
+          <li className='active' ><NavLink to="/quiz"> Quiz </NavLink></li>
+          <li className='active' ><NavLink to="/reviews"> Reviews </NavLink></li>
+          <li className='active' ><NavLink to="/about"> About </NavLink></li>
+          <li className='active' ><NavLink to="/contact"> Contact </NavLink></li>
         </ul>
 
         <a href="/Mycourses">

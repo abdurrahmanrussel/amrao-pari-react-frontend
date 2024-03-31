@@ -1,5 +1,12 @@
 
 
 export const Quiz = () => {
-    return <h1>Hello Quiz Page</h1>
+    return ( 
+        <div className="about-us"> 
+          <h1>This is quiz page</h1> 
+          <p> 
+            This feature will be available soon. 
+          </p>  
+        </div> 
+      );
 };
